@@ -16,7 +16,7 @@ body:
      description: "Please provide any reference to justify this metadata update"
      placeholder: "INC0000000/Any other"
      
- - type: textarea:
+ - type: textarea
     attributes:
       label: "Content"
       description: "Please provide changes you want to make"
