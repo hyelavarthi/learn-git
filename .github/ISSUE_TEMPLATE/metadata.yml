@@ -1,7 +1,7 @@
 name: "Metadata Update"
 description: "Updating metadata"
-labels: "Metadata"
-body: 
+labels: ["Metadata"]
+body:
 - type: dropdown
   attributes:
     label: "Action type"
@@ -10,17 +10,14 @@ body:
       - Add
       - Remove
       - Replace
- - type: input
-   attributes:
-     label: "Reference"
-     description: "Please provide any reference to justify this metadata update"
-     placeholder: "INC0000000/Any other"
-     
- - type: textarea
-    attributes:
+- type: input
+  attributes:
+    label: "Reference"
+    description: "Please provide any reference to justify this metadata update"
+    placeholder: "INC0000000/Any other"
+
+- type: textarea
+  attributes:
       label: "Content"
       description: "Please provide changes you want to make"
       render: txt
-     
- 
-      
