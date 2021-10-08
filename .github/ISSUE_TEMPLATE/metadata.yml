@@ -1,7 +1,4 @@
-body:
-- type: markdown
-  value: "## Welcome!"
-- type: markdown
-  attributes:
-    value: |
-      Thanks for taking the time to fill out this bug! If you need real-time help, join us on Discord.
+name: "Metadata Update"
+description: "Updating metadata"
+labels: "Metadata"
+
