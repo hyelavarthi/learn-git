@@ -2,8 +2,11 @@ name: "Metadata Update"
 description: "Updating metadata"
 labels: "Metadata"
 body: 
-- type: input
+- type: dropdown
   attributes:
     label: "Action type"
     description: "Please provide action for metadata update"
-    placeholder: "Add/Remove/Replace"
+    options:
+      - Add
+      - Remove
+      - Replace
