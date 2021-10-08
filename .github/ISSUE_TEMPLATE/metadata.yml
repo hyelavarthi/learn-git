@@ -37,6 +37,7 @@ body:
       - Add
       - Remove
       - Replace
+    multiple: true
   validations:
     required: true
 - type: textarea
