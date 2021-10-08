@@ -1,28 +1,28 @@
-name: "Metadata Update"
-description: "Updating metadata"
-labels: ["Metadata"]
+name: Metadata Update
+description: Updating Metadata
+title: RULE - FILENAME
+labels: [Metadata]
 body:
 - type: input
   attributes:
-    label: "Metadata file"
-    description: "Please provide file name to be updated"
-    placeholder: ".txt"
+    label: Metadata file
+    description: Please provide file name to be updated
+    placeholder: .txt
+- type: input
+  attributes:
+    label: Reference
+    description: Please provide any reference to justify this metadata update
+    placeholder: INC0000000/Any other
 - type: dropdown
   attributes:
-    label: "Action type"
-    description: "Please provide action for metadata update"
+    label: Action type
+    description: Please provide action for metadata update
     options:
       - Add
       - Remove
       - Replace
-- type: input
-  attributes:
-    label: "Reference"
-    description: "Please provide any reference to justify this metadata update"
-    placeholder: "INC0000000/Any other"
-
 - type: textarea
   attributes:
-      label: "Content"
-      description: "Please provide changes you want to make"
+      label: Content
+      description: Please provide changes you want to make
       render: txt
