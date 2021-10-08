@@ -18,7 +18,7 @@ body:
 - type: input
   attributes:
     label: Metadata file
-    description: Please provide file name to be updated
+    description: Please provide the file name to be updated
     placeholder: .txt
   validations:
     required: true
@@ -32,18 +32,17 @@ body:
 - type: dropdown
   attributes:
     label: Action type
-    description: Please provide action for metadata update
+    description: Please select the type of action for metadata update
     options:
       - Add
       - Remove
       - Replace
-    multiple: true
   validations:
     required: true
 - type: textarea
   attributes:
       label: Content
-      description: Please provide changes you want to make
+      description: Please provide the changes you want to make
       render: txt
   validations:
     required: true
