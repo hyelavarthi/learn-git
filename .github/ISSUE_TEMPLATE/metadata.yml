@@ -3,16 +3,32 @@ description: Updating Metadata
 title: RULE - FILENAME
 labels: [Metadata]
 body:
+- type: dropdown
+  attributes:
+    label: Benchmark
+    options:
+      - ISE Compliance AIX 7
+      - ISE Compliance HANA
+      - ISE Compliance Linux
+      - ISE Compliance Linux KVM
+      - ISE Compliance Solaris
+      - ISE Compliance Teradata
+  validations:
+    required: true
 - type: input
   attributes:
     label: Metadata file
     description: Please provide file name to be updated
     placeholder: .txt
+  validations:
+    required: true
 - type: input
   attributes:
     label: Reference
     description: Please provide any reference to justify this metadata update
     placeholder: INC0000000/Any other
+  validations:
+    required: true
 - type: dropdown
   attributes:
     label: Action type
@@ -21,8 +37,12 @@ body:
       - Add
       - Remove
       - Replace
+  validations:
+    required: true
 - type: textarea
   attributes:
       label: Content
       description: Please provide changes you want to make
       render: txt
+  validations:
+    required: true
