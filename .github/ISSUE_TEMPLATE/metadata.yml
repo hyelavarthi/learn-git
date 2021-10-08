@@ -1,4 +1,8 @@
 name: "Metadata Update"
 description: "Updating metadata"
 labels: "Metadata"
-
+body: 
+- type: input
+  attributes:
+    description: "Please provide action for metadata update"
+    placeholder: "Add/Remove/Replace"
